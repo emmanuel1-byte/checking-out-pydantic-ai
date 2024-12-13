@@ -1,0 +1,43 @@
+.env
+include
+lib
+lib64
+bin
+pyvenv.cfg
+
+# Virtual environment directories and contents
+venv/
+env/
+.venv/
+.env/
+venv/pyvenv.cfg
+env/pyvenv.cfg
+.venv/pyvenv.cfg
+.env/pyvenv.cfg
+
+# Explicitly ignore typical virtual environment subdirectories
+venv/lib/
+venv/lib64/
+venv/bin/
+venv/include/
+env/lib/
+env/lib64/
+env/bin/
+env/include/
+.venv/lib/
+.venv/lib64/
+.venv/bin/
+.venv/include/
+.env/lib/
+.env/lib64/
+.env/bin/
+.env/include/
+
+# Compiled Python files
+*.py[cod]
+__pycache__/
+*.pyo
+
+# General OS-specific or IDE-specific files (optional)
+.DS_Store
+Thumbs.db
