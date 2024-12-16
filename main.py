@@ -49,4 +49,4 @@ Ensure your response is concise, helpful, and actionable.
         return JSONResponse(content={"data": response.data}, status_code=200)
 
     except Exception as e:
-        raise e
+        raise
